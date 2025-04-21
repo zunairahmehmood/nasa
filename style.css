@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header start */
+.navbar {
+    height: 58px;
+    width: 1319px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.explore {
+    color: #ffffff;
+    padding: 16px;
+}
+
+a {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-right: 12px;
+    text-decoration: none;
+}
+
+.explore-icon {
+    border: 2px  solid white;
+    border-radius: 50%;
+    border-width: thin;
+    font-size: 8px;
+    font-weight: lighter;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.search {
+    padding-left: 16px;
+}
+
+input {
+    height: 30px;
+    width: 182px;
+    background-color: #000000;
+    border: 0.5px solid rgba(255, 255, 255, 0.452);
+    border-width: thin;
+    padding: 0px 8px;
+    font-size: 15px;
+    color: white;
+}
+
+.logo> img {
+    height: 50px;
+    width: 50px;
+    padding-left: 290px;
+}
+
+.nav-links {
+    padding-left: 180px;
+}
+
+.link {
+    padding-left: 10px;
+}
+
+.link-icon {
+    font-size: 14px;
+}
+
+.nav-button {
+    height: 18px;
+    width: 39px;
+    background-color: #000000;
+    border: 1px solid red;
+    border-radius: 2px;
+    color: white;
+    font-size: 9px;
+    font-family: cursive;
+    letter-spacing: 1.5px;
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 0, 0, 0.76);
+    cursor: pointer;
+}
+/* header end */
+
+
+/* main start */
+.space {
+    height: 600px;
+    width: 1351px;
+}
+
+.main-text {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featured {
+    font-size: 3rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.recently {
+    font-size: 1.4rem;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.main-imgs {
+    margin: 10px 50px;
+    gap: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-img1 {
+    height: 400px;
+    width: 600px;
+}
+
+.main-img2 {
+    height: 400px;
+    width: 310px;
+}
+
+.main-img3 {
+    height: 190px;
+    width: 310px;
+    padding-bottom: 7px;
+}
+
+.main-img4 {
+    height: 190px;
+    width: 310px;
+    padding-top: 7px;
+}
+
+.last-imgs {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 50px;
+    align-items: center;
+}
+
+.last-img1 {
+    display: flex;
+}
+
+.img1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding-top: 8px;
+}
+
+.img2{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding-top: 8px;
+}
+
+.img3{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding-top: 8px;
+}
+
+.img4{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding-top: 8px;
+}
+
+.text {
+    padding: 0px 5px 0px 20px;
+}
+
+.article {
+    display: flex;
+    color: rgb(82, 79, 79);
+}
+
+.article-icon {
+    border: 2px  solid black;
+    border-radius: 50%;
+    border-width: thin;
+    font-size: 8px;
+    font-weight: lighter;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.messege-icon {
+    border: 2px  solid black;
+    border-radius: 50%;
+    border-width: thin;
+    font-size: 8px;
+    font-weight: lighter;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.read {
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 3px;
+    padding-top: 2px;
+}
+
+.nasa {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+/* main end */
